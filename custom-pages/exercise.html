@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>习近平新时代中国特色社会主义思想概论 - 题库练习</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family:"Microsoft YaHei",sans-serif;
+        background:#eef5ff;
+        color:#1e293b;
+        display:flex;
+        min-height:100vh;
+    }
+
+    /* 左侧专题栏 */
+    .sidebar{
+        width:260px;
+        background:linear-gradient(180deg,#2563eb,#1e3a8a);
+        color:white;
+        padding:20px;
+        overflow-y:auto;
+        box-shadow:2px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar h2{
+        font-size:22px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+
+    .unit-list{
+        list-style:none;
+    }
+
+    .unit-item{
+        padding:12px 15px;
+        margin-bottom:10px;
+        border-radius:12px;
+        cursor:pointer;
+        transition:0.3s;
+        background:rgba(255,255,255,0.08);
+    }
+
+    .unit-item:hover{
+        background:rgba(255,255,255,0.2);
+        transform:translateX(5px);
+    }
+
+    .unit-item.active{
+        background:white;
+        color:#2563eb;
+        font-weight:bold;
+    }
+
+    /* 主区域 */
+    .main{
+        flex:1;
+        padding:40px;
+        overflow-y:auto;
+    }
+
+    .title{
+        font-size:32px;
+        font-weight:bold;
+        color:#1d4ed8;
+        margin-bottom:10px;
+    }
+
+    .subtitle{
+        color:#64748b;
+        margin-bottom:35px;
+    }
+
+    .question-card{
+        background:white;
+        border-radius:20px;
+        padding:25px;
+        margin-bottom:25px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        transition:0.3s;
+    }
+
+    .question-card:hover{
+        transform:translateY(-3px);
+    }
+
+    .question-type{
+        display:inline-block;
+        background:#dbeafe;
+        color:#2563eb;
+        padding:5px 12px;
+        border-radius:999px;
+        font-size:14px;
+        margin-bottom:15px;
+    }
+
+    .question-title{
+        font-size:20px;
+        line-height:1.8;
+        margin-bottom:20px;
+    }
+
+    .options{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .option{
+        padding:16px;
+        border:2px solid #dbeafe;
+        border-radius:14px;
+        cursor:pointer;
+        transition:0.25s;
+        background:#f8fbff;
+    }
+
+    .option:hover{
+        border-color:#2563eb;
+        background:#eff6ff;
+    }
+
+    .option.selected{
+        background:#2563eb;
+        color:white;
+        border-color:#2563eb;
+    }
+
+    .option-label{
+        font-weight:bold;
+        margin-right:10px;
+    }
+
+    @media(max-width:900px){
+
+        body{
+            flex-direction:column;
+        }
+
+        .sidebar{
+            width:100%;
+            display:flex;
+            overflow-x:auto;
+            overflow-y:hidden;
+            white-space:nowrap;
+        }
+
+        .unit-list{
+            display:flex;
+            gap:10px;
+        }
+
+        .unit-item{
+            min-width:120px;
+            text-align:center;
+            margin-bottom:0;
+        }
+
+        .main{
+            padding:20px;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- 左侧专题栏 -->
+<div class="sidebar">
+
+    <h2>课程专题</h2>
+
+    <ul class="unit-list">
+
+        <li class="unit-item active">导论</li>
+        <li class="unit-item">专题1</li>
+        <li class="unit-item">专题2</li>
+        <li class="unit-item">专题3</li>
+        <li class="unit-item">专题4</li>
+        <li class="unit-item">专题5</li>
+        <li class="unit-item">专题6</li>
+        <li class="unit-item">专题7</li>
+        <li class="unit-item">专题8</li>
+        <li class="unit-item">专题9</li>
+        <li class="unit-item">专题10</li>
+        <li class="unit-item">专题11</li>
+        <li class="unit-item">专题12</li>
+        <li class="unit-item">专题13</li>
+        <li class="unit-item">专题14</li>
+        <li class="unit-item">专题15</li>
+        <li class="unit-item">专题16</li>
+        <li class="unit-item">专题17</li>
+
+    </ul>
+
+</div>
+
+<!-- 主内容 -->
+<div class="main">
+
+    <div class="title">
+        《习近平新时代中国特色社会主义思想概论》
+    </div>
+
+    <div class="subtitle">
+        导论 · 题库练习
+    </div>
+
+    <!-- 题目1 -->
+    <div class="question-card">
+
+        <div class="question-type">单选题</div>
+
+        <div class="question-title">
+            1. （ ）通过了关于《中国共产党章程（修正案）》的决议，把习近平新时代中国特色社会主义思想写入党章。
+        </div>
+
+        <div class="options">
+
+            <div class="option">
+                <span class="option-label">A.</span>
+                党的十七大
+            </div>
+
+            <div class="option">
+                <span class="option-label">B.</span>
+                党的十八大
+            </div>
+
+            <div class="option">
+                <span class="option-label">C.</span>
+                党的十九大
+            </div>
+
+            <div class="option">
+                <span class="option-label">D.</span>
+                党的二十大
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 题目2 -->
+    <div class="question-card">
+
+        <div class="question-type">单选题</div>
+
+        <div class="question-title">
+            2. （ ）是改革开放以来我们党全部理论和实践的鲜明主题。
+        </div>
+
+        <div class="options">
+
+            <div class="option">
+                <span class="option-label">A.</span>
+                贯彻新发展理念
+            </div>
+
+            <div class="option">
+                <span class="option-label">B.</span>
+                坚持和发展中国特色社会主义
+            </div>
+
+            <div class="option">
+                <span class="option-label">C.</span>
+                改革开放
+            </div>
+
+            <div class="option">
+                <span class="option-label">D.</span>
+                以经济建设为中心
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 题目3 -->
+    <div class="question-card">
+
+        <div class="question-type">单选题</div>
+
+        <div class="question-title">
+            3. 党的二十大提出了（ ）。
+        </div>
+
+        <div class="options">
+
+            <div class="option">
+                <span class="option-label">A.</span>
+                “六个必须坚持”
+            </div>
+
+            <div class="option">
+                <span class="option-label">B.</span>
+                “十个明确”
+            </div>
+
+            <div class="option">
+                <span class="option-label">C.</span>
+                “十四个坚持”
+            </div>
+
+            <div class="option">
+                <span class="option-label">D.</span>
+                “十三个方面成就”
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 题目4 -->
+    <div class="question-card">
+
+        <div class="question-type">单选题</div>
+
+        <div class="question-title">
+            4. 中国特色社会主义最本质的特征是（ ）。
+        </div>
+
+        <div class="options">
+
+            <div class="option">
+                <span class="option-label">A.</span>
+                人民共同富裕
+            </div>
+
+            <div class="option">
+                <span class="option-label">B.</span>
+                人民当家作主
+            </div>
+
+            <div class="option">
+                <span class="option-label">C.</span>
+                中国共产党领导
+            </div>
+
+            <div class="option">
+                <span class="option-label">D.</span>
+                社会主义现代化
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    // 左侧专题栏切换
+    const units = document.querySelectorAll('.unit-item');
+
+    units.forEach(unit => {
+
+        unit.addEventListener('click', () => {
+
+            units.forEach(u => u.classList.remove('active'));
+            unit.classList.add('active');
+
+        });
+
+    });
+
+    // 单选效果
+    const questionCards = document.querySelectorAll('.question-card');
+
+    questionCards.forEach(card => {
+
+        const options = card.querySelectorAll('.option');
+
+        options.forEach(option => {
+
+            option.addEventListener('click', () => {
+
+                options.forEach(o => o.classList.remove('selected'));
+
+                option.classList.add('selected');
+
+            });
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>

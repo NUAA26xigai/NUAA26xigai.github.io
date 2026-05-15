@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>《习近平新时代中国特色社会主义思想概论》题库</title>
+    <url>/2026/05/11/%E4%B9%A0%E6%A6%82%E9%A2%98%E5%BA%93/</url>
+    <content><![CDATA[<div style="width: 100%; margin: 0; padding: 0;">
+
+<iframe 
+    src="/custom-pages/exercise.html"
+    style="
+        width: 100%;
+        height: 95vh;
+        border: none;
+        border-radius: 12px;
+    ">
+</iframe>
+
+</div>
+
+<p>更多习题：<a href="https://nuaa.store/about">NUAA-STORE | Everything here is free.</a></p>
+]]></content>
+      <categories>
+        <category>HTML交互页面</category>
+      </categories>
+      <tags>
+        <tag>题库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2026/03/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p>这个页面就不删除了，以后会作为测试用例。</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>手写数字识别</title>
+    <url>/2026/03/24/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<div style="display: flex; justify-content: center;">
+  <iframe 
+    src="/custom-pages/number.html"
+    width="90%" 
+    style="max-width: 960px; height: 1200px; opacity: 0.7;"
+  ></iframe>
+
+</div>]]></content>
+      <categories>
+        <category>HTML交互页面</category>
+      </categories>
+      <tags>
+        <tag>ONNX</tag>
+        <tag>神经网络</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>习概课程实践报告</title>
+    <url>/2026/05/11/%E6%8A%A5%E5%91%8A/</url>
+    <content><![CDATA[<h1 id="《习近平新时代中国特色社会主义思想概论》课程实践报告"><a href="#《习近平新时代中国特色社会主义思想概论》课程实践报告" class="headerlink" title="《习近平新时代中国特色社会主义思想概论》课程实践报告"></a>《习近平新时代中国特色社会主义思想概论》课程实践报告</h1><p><strong>题目：</strong> 学思践悟，网传新声——习近平新时代中国特色社会主义思想学习网站建设与课程实践</p>
+<p><strong>时间：</strong> 2026.05</p>
+<p><strong>南京航空航天大学马克思主义学院</strong></p>
+<hr>
+<h2 id="一、小组成员及分工"><a href="#一、小组成员及分工" class="headerlink" title="一、小组成员及分工"></a>一、小组成员及分工</h2><p><strong>：</strong></p>
+<p>本次《习近平新时代中国特色社会主义思想概论》课程实践中，我独立完成课程学习网站的整体设计、搭建与维护工作。项目基于 Hexo 静态博客框架与 Butterfly 主题开发。目前搭建了 GitHub Pages 网站 [nuaa26xigai.github.io] 与基于 Nginx、Tailscale 的本地部署网站 [nuaa-xigai26-blog.tail2954bb.ts.net]。主要完成了主题美化、夜间模式、评论系统、音乐播放器、Live2D 桌宠、页面搜索、PJAX 无刷新切换等功能，并对页面背景、动画效果与移动端适配进行了优化。同时，我还编写了自动化 bat 脚本用于博客一键生成与部署，提高开发效率。</p>
+<p>目前网站已上传《海上钢琴师》影评、《习近平新时代中国特色社会主义思想概论》课程实践报告以及课程习题整理等内容。其中，《海上钢琴师》影评结合“中国梦”、青年理想与新时代奋斗精神展开讨论；课程实践报告记录了网站建设与技术实现过程；课程习题集则用于课程知识整理与复习。</p>
+<p>由于网站部分服务依赖 GitHub Pages 与海外网络环境，中国大陆地区访问时可能出现加载较慢或部分资源无法正常访问的情况。</p>
+<hr>
+<h2 id="二、实践选题来源"><a href="#二、实践选题来源" class="headerlink" title="二、实践选题来源"></a>二、实践选题来源</h2><p><strong>1. 该选题来自教材第七章“社会主义现代化建设的教育、科技、人才战略”。</strong></p>
+<p>教材相关论述如下：</p>
+<blockquote>
+<p>“教育、科技、人才是全面建设社会主义现代化国家的基础性、战略性支撑。必须坚持科技是第一生产力、人才是第一资源、创新是第一动力，深入实施科教兴国战略、人才强国战略、创新驱动发展战略，开辟发展新领域新赛道，不断塑造发展新动能新优势。”</p>
+</blockquote>
+<p>其中第三节“加快建设科技强国”亦明确指出：</p>
+<blockquote>
+<p>“科技是国之利器，国家赖之以强，企业赖之以赢，人民生活赖之以好。中国要强，中国人民生活要好，必须有强大科技。”</p>
+</blockquote>
+<p>同时强调：</p>
+<blockquote>
+<p>“要把惠民、利民、富民、改善民生作为科技创新的重要方向，推出更多涉及民生的科技创新成果，满足人民多样化多层次的美好生活需要。”</p>
+</blockquote>
+<p>——《习近平新时代中国特色社会主义思想概论》2023版 高等教育出版社&#x2F;人民出版社 P136、P148</p>
+<p><strong>2.</strong> 基于此，选择搭建一个学习性质网站，主要出于三点考虑：一是希望通过独立完成从开发到部署的全流程，切实锻炼自主创新和技术实践能力，践行教材“增强自主创新能力”的要求；二是网站将系统整理新思想的核心要点、课程笔记和复习资料，以结构化、易检索的方式呈现，便捷地学习和理解，并服务课程学习与期末复习需求，以实际行动传播党的创新理论；三是将网站部署在 GitHub Pages 或 Linux 本地主机，配合 Nginx 进行反向代理与静态资源分发，实现低成本、高效率的开放共享，体现教材所强调的“科技惠民”理念，让科技创新成果真正服务于同学们的美好学习生活需要。</p>
+<hr>
+<h2 id="三、实践时间及地点"><a href="#三、实践时间及地点" class="headerlink" title="三、实践时间及地点"></a>三、实践时间及地点</h2><p>2026年4月 至 2026年5月  B5共享科创空间</p>
+<hr>
+<h2 id="四、实践总结"><a href="#四、实践总结" class="headerlink" title="四、实践总结"></a>四、实践总结</h2><p>本次《习近平新时代中国特色社会主义思想概论》课程实践，我结合自身已有的个人博客与网页工具开发经验，选择以“学习网站建设”为实践方向，将课程学习内容与网络平台建设相结合，尝试搭建一个兼具课程学习、知识整理与个人展示功能的网站。相比传统纸质报告或简单文档整理，我更希望利用自己对网页开发与计算机技术的兴趣，将课程中的理论知识通过更加直观、生动和开放的方式呈现出来，同时也借此进一步锻炼自身实践能力与自主学习能力。</p>
+<p>在项目开始前，我曾尝试使用简单 HTML 页面编写一些小型网页工具，例如用户登录界面、表单页面以及 CSS、JavaScript 动态效果等，因此对于基础网页结构已经有一定了解。但真正搭建完整博客网站时，仍然遇到了许多此前没有接触过的问题，例如静态博客框架配置、主题结构修改、网页部署以及页面交互等。起初我尝试直接使用 GitHub.io 搭建个人主页，希望通过纯 HTML 的方式完成网站建设，但随着功能需求不断增加，例如文章分类、评论系统、页面搜索以及夜间模式等，仅依靠手写静态页面已经很难维护，因此最终决定采用 Hexo 静态博客框架进行开发。</p>
+<p>在实践过程中，我首先完成了 Node.js、npm 与 Hexo 环境配置，并尝试本地生成博客页面。通过不断查阅官方文档与社区资料，逐步完成了网站初始化、主题安装与本地调试。</p>
+<p>网站首页整体设计以简洁实用为主。页面顶部为固定导航栏，包含网站名称与分类入口，方便快速定位不同专题内容；中间区域为文章卡片展示区，按课程章节归类排列，每张卡片呈现标题、摘要与发布日期，便于浏览和检索；侧边栏或页面底部设有个人信息模块，展示站点简介与联系方式。视觉上采用了动态粒子背景，并支持夜间模式一键切换，提升不同光线环境下的阅读体验。同时，页面基于响应式布局开发，在电脑端和移动端均可自适应展示，满足不同设备的访问需求。</p>
+<p>本次实践并不仅仅是搭建一个博客，而是尝试将课程学习内容与新时代青年网络传播方式结合起来。作为南航学生，在学习《习近平新时代中国特色社会主义思想概论》的过程中，我逐渐认识到，新时代大学生不仅要掌握专业知识，也要具备运用现代科技传播知识、服务学习与社会发展的能力。教材中提到“教育、科技、人才是全面建设社会主义现代化国家的基础性、战略性支撑”，而互联网平台、数字资源与信息技术正是新时代知识传播的重要载体。因此，我希望通过搭建课程学习网站，将课程中的重点知识、学习心得与实践内容进行整理，以更加结构化、开放化的方式进行展示。</p>
+<p>目前网站已上传三篇主要文章。第一篇为《海上钢琴师》影评，文章围绕梦想、自由、勇气等主题展开讨论，并结合“中国梦”、新时代青年奋斗精神以及个人理想与国家发展的关系进行分析；第二篇为《习近平新时代中国特色社会主义思想概论》课程实践报告，用于记录网站建设过程与课程实践内容；第三篇则为课程习题整理，主要用于知识归纳与期末复习。通过这些内容整理，我对课程中的理论知识也有了更加系统的理解。</p>
+<p>在网站功能设计方面，我还加入了评论系统、页面搜索、访问统计以及文章分类等功能，希望增强网站的互动性与实用性。例如评论系统可以实现学习交流与讨论；页面搜索则方便快速查找课程内容；文章分类能够对不同学习方向进行整理。</p>
+<p>除了基础学习功能外，我还对网站进行了多方面的界面优化与交互设计。例如加入动态背景、雨滴特效、打字机文字动画以及夜间模式切换，以提升整体观感与使用体验；同时引入 Live2D 桌宠功能，在现有开源项目不完全支持自定义模型的情况下，通过查阅资料并学习相关文件结构，最终实现了模型导入与网页互动。此外，网站还集成了音乐播放器，为避免页面切换时音乐中断，进一步学习并应用了 PJAX 无刷新切换技术，实现页面局部刷新，使网站整体更加流畅完整。这些探索过程虽然耗时，但也让我切实体会到自主学习与实践探索的重要性。</p>
+<p>通过本次课程实践，我更加深刻地认识到理论联系实际的重要意义。《习近平新时代中国特色社会主义思想概论》课程不仅帮助我们学习新时代中国特色社会主义思想的核心内容，也引导新时代青年思考如何将个人成长与国家发展结合起来。作为工科院校学生，尤其是南航学生，我们既肩负着科技学习与创新实践的责任，也应主动提升信息化时代背景下的综合能力。互联网与数字平台已经成为新时代知识传播的重要方式，而青年学生也应积极利用自身专业与兴趣，探索更加开放、多元和高效的学习与传播形式。</p>
+<p>本次实践不仅提升了我的网页设计、博客搭建与网络部署能力，也让我更加理解“科技强国”“创新驱动发展”“人才强国”等理念的现实意义。未来，我也希望继续完善网站内容，进一步丰富课程学习资源与功能模块，使其真正成为一个兼具学习性、实践性与交流性的课程学习平台。</p>
+<hr>
+<h2 id="五、实践心得"><a href="#五、实践心得" class="headerlink" title="五、实践心得"></a>五、实践心得</h2><p>**1. **</p>
+<p>通过本次课程实践，我对《习近平新时代中国特色社会主义思想概论》的学习不再停留在纸面上，而是有了一次动手落实的机会。最初面对“科技强国”“创新驱动发展”这些概念，理解其实比较模糊。直到独立完成学习网站搭建，从选题、整理资料到部署上线，我才真正体会到“科技惠民”不是一句空话——做的这个网站，本身就是一次降低学习门槛、用技术服务同学的尝试。这个过程也让我对“教育、科技、人才是基础性、战略性支撑”有了更具体的感受。作为新时代大学生，既要坚定理想信念，也要把个人所学转化为实际能力。感谢张老师在本学期给予的指导和帮助。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>实践报告</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>海上钢琴师</title>
+    <url>/2026/05/14/%E6%B5%B7%E4%B8%8A%E9%92%A2%E7%90%B4%E5%B8%88/</url>
+    <content><![CDATA[<h1 id="在有限与无限之间寻找人生方向"><a href="#在有限与无限之间寻找人生方向" class="headerlink" title="在有限与无限之间寻找人生方向"></a>在有限与无限之间寻找人生方向</h1><h2 id="——《海上钢琴师》"><a href="#——《海上钢琴师》" class="headerlink" title="——《海上钢琴师》"></a>——《海上钢琴师》</h2><p>《海上钢琴师》没有激烈的战争场面，也不靠跌宕的英雄故事取胜。它只讲了一个叫1900的人，一生都留在船上，却在极其有限的物理空间里，构筑起一个无限的音乐世界和精神宇宙。表面上看，这是一部关于天才钢琴师人生选择的电影；往深处想，它触碰的其实是每个人都会面对的问题：什么是梦想？自由究竟意味着什么？在时代和现实面前，人该怎样安放自己？</p>
+<p>对于今天的大学生来说，这部电影更像一堂安静而有力的人生课。结合《习近平新时代中国特色社会主义思想概论》的学习，影片中关于理想、信念、坚持与自我价值的探讨，同样能带来许多贴近内心的启发。</p>
+<h2 id="一、被遗弃的起点与纯粹的诞生"><a href="#一、被遗弃的起点与纯粹的诞生" class="headerlink" title="一、被遗弃的起点与纯粹的诞生"></a>一、被遗弃的起点与纯粹的诞生</h2><p>1900是一个弃婴，被发现于邮轮的头等舱里。没有父母，没有真正意义上的家庭，连名字也不过是一个年份：1900。这个名字简单到极致，却又带着一种时代隐喻，仿佛他本身就是二十世纪初那个漂泊年代的一个缩影。</p>
+<p>收养他的工人去世后，1900彻底成了船上“没有身份”的人。他在船舱、甲板、海浪和锅炉房的黑人钢琴师身边长大，从未接受过正规音乐教育，却在某个夜晚悄悄坐到钢琴前，指尖触键的瞬间，音乐像呼吸一样自然流淌出来。那一刻你会意识到，真正的艺术从来不是技巧的堆砌，而是灵魂与世界的直接共振。</p>
+<p>1900的孤独几乎贯穿一生。他未曾真正融入过任何群体，乘客一批批上船又下船，他始终停在原地。但也正因为这种孤独，他保有了一种罕见的精神纯度。当外界被功利和喧嚣填满时，他却只围着音乐转。这种“纯度”，恰恰是这部电影最打动人的地方。</p>
+<h2 id="二、梦想的重量，不在世俗的秤上"><a href="#二、梦想的重量，不在世俗的秤上" class="headerlink" title="二、梦想的重量，不在世俗的秤上"></a>二、梦想的重量，不在世俗的秤上</h2><p>很多人会替1900惋惜：以他的天赋，只要下船，名利、地位、荣誉唾手可得。为什么偏偏拒绝这一切？</p>
+<p>事实上，1900从未把世俗意义上的成功当成目标。我们习惯将梦想与“功成名就”画等号，似乎只有赚到足够的钱、获得足够的认可，才算实现了什么。但1900不这么算。对他而言，音乐本身就是全部。他享受的是坐在钢琴前创作和演奏的过程，而不是成为“名人”之后的结果。</p>
+<p>电影里有一段张力十足的斗琴戏。技巧高超、名声在外的爵士乐大师步步紧逼，1900起初平静甚至有些漫不经心，直到真正被激发出表达的欲望。他的音乐完全超越了炫技层面，那不是在比赛，那是在剖白。一曲终了，全场寂静。</p>
+<p>这让我想起《概论》中关于坚定理想信念的论述。真正的理想不是一时一地的利益目标，而是一种需要长期坚守的精神方向。新时代青年如果只把人生目标停留在“找什么工作”“赚多少钱”上，很容易在现实压力面前动摇。可如果梦想来自内心真正的热爱，它就会变成持续支撑自己的力量。</p>
+<p>中国梦的实现，不只是宏大的国家叙事，也离不开每一个普通人的认真奔赴。找到属于自己的方向，把个人理想融入民族复兴的脉络里，这不是一句空话，而是一种具体的活法。</p>
+<h2 id="三、不下船，未必不是勇气"><a href="#三、不下船，未必不是勇气" class="headerlink" title="三、不下船，未必不是勇气"></a>三、不下船，未必不是勇气</h2><p>电影里最经典的一幕，也是被讨论最多的时刻：1900站在舷梯中央，眼前就是陆地，身后是船。他停住了。</p>
+<p>很多人第一次看到这里时，会觉得1900缺乏勇气。明明再走几步就能进入新世界，他却转身回来。可看得越久，越觉得真正的勇气并不只有“冲出去”这一种形态。</p>
+<p>陆地象征着无限的可能，也象征着无限的复杂。高楼、街道、人群、欲望、竞争，没有尽头。1900说过一段让人沉默的话：“城市那么大，看不到尽头。我不知道哪里才是终点。”</p>
+<p>这句话几乎精准击中了现代人的精神困境。面对无限的选择，人反而更容易迷失。今天的大学生同样被各种焦虑包围：考研还是就业？考公还是进企业？稳定还是冒险？坚持兴趣还是向现实妥协？选择太多，有时比没有选择更令人无所适从。</p>
+<p>1900不是害怕陆地，他是害怕自己在那个没有边际的世界里丢掉自己。他在船上能够守住内心的秩序，但他不确定，在纷繁复杂的现实中，自己还能不能继续忠于本心。</p>
+<p>《概论》中强调，青年要树立正确的人生观、价值观和世界观。“正确”并不意味着所有人走同一条路，而是指在复杂环境里仍能保持精神定力，不被错误的价值观裹挟。真正的勇气，既是敢于出发，也是敢于坚守正确的方向。</p>
+<h2 id="四、自由，有时候是往回收"><a href="#四、自由，有时候是往回收" class="headerlink" title="四、自由，有时候是往回收"></a>四、自由，有时候是往回收</h2><p>《海上钢琴师》最深的一层追问，是关于自由。</p>
+<p>表面上看，1900一辈子困在一条船上，似乎是最不自由的人。但电影恰恰反过来问：什么才是真正的自由？</p>
+<p>陆地上的人看似拥有无限选择，却常常被欲望牵引、被评价裹挟、被竞争驱赶。有人为钱奔波，有人为名焦虑，有人不断改变自己去迎合外界。表面上自由，内心却可能早已失去余地。</p>
+<p>而1900，虽然从未踏上陆地，却在琴键之间拥有完整的精神主权。他不需要外界认可来证明自己，也不靠物质财富来衡量人生。他的自由，是一种向内的自由。</p>
+<p>当然，电影并非鼓励逃避。1900最终与船一同沉没，带有悲剧色彩。现实中的人不可能永远停留在某个“安全区”里，青年终究要走向社会，承担责任，面对挑战。但电影提醒我们：在承受现实重量的同时，不要弄丢内心真正重要的东西。</p>
+<p>新时代青年既要有开放的眼界，也要有精神上的独立。中国式现代化追求的不仅是经济增长，更是人的全面发展。一个真正有力量的国家，既需要科技硬实力，也需要文化自信和精神底蕴。自由从来不是毫无边界的放纵，而是在正确方向上实现自我价值的能力。</p>
+<h2 id="五、个人理想与国家发展同向而行"><a href="#五、个人理想与国家发展同向而行" class="headerlink" title="五、个人理想与国家发展同向而行"></a>五、个人理想与国家发展同向而行</h2><p>学完《概论》后，我对“中国梦”有了更具体的感受。</p>
+<p>过去总觉得这是个宏大的政治概念，离自己的生活很远。但现在慢慢意识到，它说到底，就是国家富强、民族振兴、人民幸福，而这些目标的实现，离不开一个个普通人的选择和坚持。</p>
+<p>《海上钢琴师》虽然讲的是一个虚构的外国故事，但里面关于热爱与坚守的命题，照样能照进我们的现实。1900用一生守护了自己的音乐，新时代的中国青年，同样可以在个人奋斗与社会需要之间找到交集。</p>
+<p>今天这个时代，科技在突破，航天在进步，人工智能和新能源产业在兴起，乡村振兴在推进。这些成就背后站着的，正是一批批脚踏实地的奋斗者。作为大学生，眼下能做的事情或许不大，但认真对待每一门课，积极投入每一次实践，都是在为将来积蓄力量。《概论》里讲的那句话——“立大志、明大德、成大才、担大任”，落到底，就是从一个个具体的行动开始的。</p>
+<p>个人梦想如果能够与国家发展同频共振，就会拥有更深的根基和更远的指向。</p>
+<h2 id="六、不怕走得慢，只怕弄丢自己"><a href="#六、不怕走得慢，只怕弄丢自己" class="headerlink" title="六、不怕走得慢，只怕弄丢自己"></a>六、不怕走得慢，只怕弄丢自己</h2><p>电影的结尾，1900选择与船一起消失。这个结局让人久久说不出话来。</p>
+<p>但我越来越觉得，1900真正害怕的，不是死亡，而是迷失。</p>
+<p>他宁愿在一个有限的空间里保持真实，也不愿到一个无限的世界里变成面目模糊的人。现实中，我们当然不能像他那样彻底逃离社会，但我们确实需要从他身上学一件事：不管外界怎么变，守住初心。</p>
+<p>现在很多年轻人容易陷入焦虑：担心未来，害怕失败，害怕落后，害怕“不够优秀”。可人生从来不是一场统一标准的竞赛。每个人的节奏不同，方向也不同。真正重要的，不是盲目和别人比，而是找到自己该走的路，然后一步一步走下去。</p>
+<p>中国梦不是抽象的口号，它由无数普通人认真生活的日常编织而成。青年既要有远大理想，也要脚踏实地；既要抬头看天，也要扎根大地。</p>
+<h2 id="七、在时代里找到自己的琴键"><a href="#七、在时代里找到自己的琴键" class="headerlink" title="七、在时代里找到自己的琴键"></a>七、在时代里找到自己的琴键</h2><p>《海上钢琴师》是一部关于选择、坚守和内心秩序的电影。1900从未真正踏上陆地，但他的精神世界比很多人都辽阔。他让观众看到：梦想需要坚持，勇气不只是冒险，自由不是放纵，而人生最重要的事，是找到属于自己的方向。</p>
+<p>结合《习近平新时代中国特色社会主义思想概论》的学习，我更加清楚一件事：新时代青年既要拥有个人理想，也要承担时代责任。个人的成长不能脱离国家的发展，青春的奋斗也应该与民族复兴同向而行。</p>
+<p>我们大概不会成为1900那样的传奇，但仍然可以在自己站定的位置上发出光亮。真正有意义的人生，不在于是否惊天动地，而在于是否在纷繁的时代洪流中守住热爱，踏实前行，并把自己的故事写进更广阔的中国梦之中。</p>
+]]></content>
+      <categories>
+        <category>观影笔记</category>
+      </categories>
+      <tags>
+        <tag>-海上钢琴师 -梦想</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/aplayer.html</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>悬浮球播放器</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <style>
+    body {
+      margin: 0;
+      background: #f0f2f5;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* 背景模糊效果 */
+    .blur-effect {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(5px);
+      z-index: 997;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .blur-effect.active {
+      opacity: 1;
+    }
+
+    /* 悬浮球样式 */
+    #floating-ball {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #floating-ball:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    #floating-ball.playing {
+      animation: rotateCover 15s linear infinite;
+    }
+
+    @keyframes rotateCover {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    #floating-ball.dragging {
+      cursor: move;
+      animation: none;
+      transform: scale(1.1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 播放/暂停图标 */
+    #play-icon {
+      font-size: 20px;
+      color: white;
+      text-shadow: 0 0 5px black;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 完全隐藏 APlayer 默认面板 */
+    .aplayer {
+      display: none !important;
+    }
+
+    /* 控制菜单样式 - 紧凑布局 */
+    #control-menu {
+      position: fixed;
+      z-index: 998;
+      width: 220px;
+      background: rgba(240, 248, 255, 0.95); /* 更透明的背景 */
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      display: none;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.3s, transform 0.3s;
+      pointer-events: auto;
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      /* 固定高度 */
+      height: 440px;
+    }
+
+    #control-menu.show {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* 当前播放信息 - 更紧凑 */
+    #now-playing {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      background: rgba(100, 149, 237, 0.7); /* 更简洁的蓝色背景 */
+      color: white;
+    }
+
+    .song-title {
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .song-artist {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    /* 进度条 - 更紧凑 */
+    #progress-container {
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    #progress-bar {
+      height: 3px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 2px;
+      margin: 6px 0;
+      cursor: pointer;
+    }
+
+    #progress {
+      height: 100%;
+      width: 0;
+      background: #4682B4; /* 钢蓝色 */
+      border-radius: 2px;
+      transition: width 0.1s;
+    }
+
+    .time-display {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #333;
+      margin-top: 2px;
+    }
+
+    /* 歌曲列表容器 - 固定高度 */
+    #song-list-container {
+      height: 210px; /* 固定高度，确保7首歌能显示 */
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* 隐藏滚动条但保留功能 */
+    #song-list-container::-webkit-scrollbar {
+      width: 4px;
+    }
+    
+    #song-list-container::-webkit-scrollbar-thumb {
+      background: rgba(70, 130, 180, 0.5);
+      border-radius: 2px;
+    }
+
+    /* 歌曲项 - 更紧凑 */
+    .song-item {
+      padding: 8px 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .song-item.active {
+      background: rgba(70, 130, 180, 0.3);
+      color: #1E3F66;
+    }
+
+    .song-item:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    .song-item .song-title {
+      font-weight: 500;
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 1px;
+    }
+
+    .song-item .song-artist {
+      font-size: 11px;
+      color: #555;
+    }
+
+    /* 控制按钮 - 更紧凑 */
+    .control-buttons {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .control-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #4682B4;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 14px;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .control-btn:hover {
+      transform: scale(1.1);
+      background: #3a6d99;
+    }
+
+    /* 音量控制 - 更紧凑 */
+    #volume-container {
+      padding: 6px 12px 10px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    #volume-bar {
+      height: 3px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 2px;
+      margin: 6px 0;
+      cursor: pointer;
+    }
+
+    #volume-level {
+      height: 100%;
+      width: 80%;
+      background: #4682B4;
+      border-radius: 2px;
+      transition: width 0.1s;
+    }
+    
+    /* 分页控制 - 更紧凑 */
+    .pagination-controls {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.3);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      font-size: 11px;
+    }
+    
+    .page-btn {
+      padding: 3px 6px;
+      background: rgba(70, 130, 180, 0.5);
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .page-btn:hover {
+      background: rgba(70, 130, 180, 0.8);
+    }
+    
+    .page-btn.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    .page-info {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 背景模糊效果层 -->
+<div class="blur-effect"></div>
+
+<!-- 悬浮球 -->
+<div id="floating-ball" title="音乐播放器">
+  <span id="play-icon">▶️</span>
+</div>
+
+<!-- 控制菜单 -->
+<div id="control-menu">
+  <div id="now-playing">
+    <div class="song-title" id="current-title">未播放</div>
+    <div class="song-artist" id="current-artist">-</div>
+  </div>
+  
+  <div id="progress-container">
+    <div id="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <div class="time-display">
+      <span id="current-time">00:00</span>
+      <span id="duration">00:00</span>
+    </div>
+  </div>
+  
+  <div class="control-buttons">
+    <div class="control-btn" id="prev-btn" title="上一首">⏮️</div>
+    <div class="control-btn" id="play-btn" title="播放/暂停">▶️</div>
+    <div class="control-btn" id="next-btn" title="下一首">⏭️</div>
+  </div>
+  
+  <div id="volume-container">
+    <div style="margin-bottom: 2px; font-size: 11px; color: #333;">音量</div>
+    <div id="volume-bar">
+      <div id="volume-level"></div>
+    </div>
+  </div>
+  
+  <div id="song-list-container">
+    <div id="song-list"></div>
+  </div>
+  
+  <div class="pagination-controls" id="pagination-controls" style="display: none;">
+    <div class="page-btn" id="prev-page">上一页</div>
+    <div class="page-info" id="page-info">1/1</div>
+    <div class="page-btn" id="next-page">下一页</div>
+  </div>
+</div>
+
+<!-- 播放器容器 (隐藏) -->
+<div id="player"></div>
+
+<!-- APlayer 脚本 -->
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script>
+  // 创建隐藏的APlayer实例
+  const ap = new APlayer({
+    container: document.getElementById('player'),
+    fixed: false,
+    mini: false,
+    autoplay: false,
+    theme: '#4682B4', // 钢蓝色
+    loop: 'all',
+    order: 'list',
+    preload: 'auto',
+    volume: 0.8,
+    lrcType: 0, // 不显示歌词
+    audio: [
+      {
+        name: '童话镇',
+        artist: '陈一发儿',
+        url: './music/陈一发儿-童话镇.mp3',
+        cover: './music/童话镇.jpg'
+      },
+      {
+        name: '大主宰',
+        artist: '洛天依',
+        url: './music/洛天依-大主宰.mp3',
+        cover: './music/大主宰.jpg'
+      },
+      {
+        name: '歌曲3',
+        artist: '艺术家3',
+        url: './music/歌曲3.mp3',
+        cover: './music/封面3.jpg'
+      },
+      {
+        name: '歌曲4',
+        artist: '艺术家4',
+        url: './music/歌曲4.mp3',
+        cover: './music/封面4.jpg'
+      },
+      {
+        name: '歌曲5',
+        artist: '艺术家5',
+        url: './music/歌曲5.mp3',
+        cover: './music/封面5.jpg'
+      },
+      {
+        name: '歌曲6',
+        artist: '艺术家6',
+        url: './music/歌曲6.mp3',
+        cover: './music/封面6.jpg'
+      },
+      {
+        name: '歌曲7',
+        artist: '艺术家7',
+        url: './music/歌曲7.mp3',
+        cover: './music/封面7.jpg'
+      },
+      {
+        name: '歌曲8',
+        artist: '艺术家8',
+        url: './music/歌曲8.mp3',
+        cover: './music/封面8.jpg'
+      }
+    ]
+  });
+
+  // 获取DOM元素
+  const ball = document.getElementById('floating-ball');
+  const icon = document.getElementById('play-icon');
+  const controlMenu = document.getElementById('control-menu');
+  const songListContainer = document.getElementById('song-list-container');
+  const songList = document.getElementById('song-list');
+  const prevBtn = document.getElementById('prev-btn');
+  const playBtn = document.getElementById('play-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const currentTitle = document.getElementById('current-title');
+  const currentArtist = document.getElementById('current-artist');
+  const progressBar = document.getElementById('progress-bar');
+  const progress = document.getElementById('progress');
+  const currentTimeEl = document.getElementById('current-time');
+  const durationEl = document.getElementById('duration');
+  const volumeBar = document.getElementById('volume-bar');
+  const volumeLevel = document.getElementById('volume-level');
+  const blurEffect = document.querySelector('.blur-effect');
+  const paginationControls = document.getElementById('pagination-controls');
+  const prevPageBtn = document.getElementById('prev-page');
+  const nextPageBtn = document.getElementById('next-page');
+  const pageInfo = document.getElementById('page-info');
+
+  // 分页相关变量
+  const SONGS_PER_PAGE = 7;
+  let currentPage = 1;
+  let totalPages = 1;
+
+  // 菜单显示/隐藏控制
+  let menuTimeout;
+  let isMenuHovered = false;
+  let isDragging = false;
+  let dragStartX = 0;
+  let dragStartY = 0;
+  let ballStartLeft = 0;
+  let ballStartTop = 0;
+  let menuPosition = 'right'; // 记录菜单当前相对位置 ('right' 或 'left')
+
+  // 显示菜单
+  function showMenu() {
+    clearTimeout(menuTimeout);
+    controlMenu.classList.add('show');
+    blurEffect.classList.add('active');
+    positionMenu();
+  }
+
+  // 隐藏菜单（带延迟）
+  function hideMenu() {
+    if (!isMenuHovered && !isDragging) {
+      menuTimeout = setTimeout(() => {
+        controlMenu.classList.remove('show');
+        blurEffect.classList.remove('active');
+      }, 300);
+    }
+  }
+
+  // 定位菜单 - 智能调整位置
+  function positionMenu() {
+    const ballRect = ball.getBoundingClientRect();
+    const menuWidth = controlMenu.offsetWidth;
+    const menuHeight = controlMenu.offsetHeight;
+    
+    // 默认尝试放在右侧
+    let left = ballRect.right + 10;
+    let top = ballRect.top;
+    let newPosition = 'right';
+    
+    // 检查右侧空间是否足够
+    if (left + menuWidth > window.innerWidth - 10) {
+      // 右侧空间不足，尝试放在左侧
+      left = ballRect.left - menuWidth - 10;
+      newPosition = 'left';
+      
+      // 检查左侧空间是否足够
+      if (left < 10) {
+        // 两侧都不够空间，强制放在右侧（会被窗口裁剪）
+        left = ballRect.right + 10;
+        newPosition = 'right';
+      }
+    }
+    
+    // 确保不超出屏幕上下边界
+    if (top < 10) {
+      top = 10;
+    } else if (top + menuHeight > window.innerHeight - 10) {
+      top = window.innerHeight - menuHeight - 10;
+    }
+    
+    // 如果位置没有变化，保持当前相对位置
+    if (newPosition === menuPosition) {
+      // 保持当前相对位置
+      if (menuPosition === 'right') {
+        left = ballRect.right + 10;
+      } else {
+        left = ballRect.left - menuWidth - 10;
+      }
+      
+      // 再次检查空间是否足够
+      if ((menuPosition === 'right' && left + menuWidth > window.innerWidth - 10) ||
+          (menuPosition === 'left' && left < 10)) {
+        // 当前相对位置空间不足，切换位置
+        menuPosition = menuPosition === 'right' ? 'left' : 'right';
+        if (menuPosition === 'right') {
+          left = ballRect.right + 10;
+        } else {
+          left = ballRect.left - menuWidth - 10;
+        }
+      }
+    } else {
+      // 位置有变化，更新记录
+      menuPosition = newPosition;
+    }
+    
+    controlMenu.style.left = `${left}px`;
+    controlMenu.style.top = `${top}px`;
+  }
+
+  // 更新封面图
+  function updateCover() {
+    const current = ap.list.audios[ap.list.index];
+    ball.style.backgroundImage = `url("${current.cover}")`;
+    currentTitle.textContent = current.name;
+    currentArtist.textContent = current.artist;
+  }
+
+  // 更新播放状态
+  function updatePlayState() {
+    if (ap.audio.paused) {
+      ball.classList.remove('playing');
+      icon.textContent = '▶️';
+      playBtn.textContent = '▶️';
+    } else {
+      ball.classList.add('playing');
+      icon.textContent = '⏸️';
+      playBtn.textContent = '⏸️';
+    }
+  }
+
+  // 更新进度条
+  function updateProgress() {
+    const percent = ap.audio.currentTime / ap.audio.duration * 100;
+    progress.style.width = `${percent}%`;
+    
+    // 更新时间显示
+    currentTimeEl.textContent = formatTime(ap.audio.currentTime);
+    durationEl.textContent = formatTime(ap.audio.duration);
+  }
+
+  // 格式化时间 (秒 -> MM:SS)
+  function formatTime(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // 更新音量显示
+  function updateVolume() {
+    volumeLevel.style.width = `${ap.audio.volume * 100}%`;
+  }
+
+  // 更新分页信息
+  function updatePagination() {
+    totalPages = Math.ceil(ap.list.audios.length / SONGS_PER_PAGE);
+    
+    if (totalPages > 1) {
+      paginationControls.style.display = 'flex';
+      pageInfo.textContent = `${currentPage}/${totalPages}`;
+      
+      prevPageBtn.classList.toggle('disabled', currentPage === 1);
+      nextPageBtn.classList.toggle('disabled', currentPage === totalPages);
+    } else {
+      paginationControls.style.display = 'none';
+    }
+  }
+
+  // 更新歌曲列表
+  function updateSongList() {
+    songList.innerHTML = '';
+    
+    const startIndex = (currentPage - 1) * SONGS_PER_PAGE;
+    const endIndex = Math.min(startIndex + SONGS_PER_PAGE, ap.list.audios.length);
+    
+    for (let i = startIndex; i < endIndex; i++) {
+      const song = ap.list.audios[i];
+      const songItem = document.createElement('div');
+      songItem.className = `song-item ${i === ap.list.index ? 'active' : ''}`;
+      songItem.innerHTML = `
+        <div class="song-title">${song.name}</div>
+        <div class="song-artist">${song.artist}</div>
+      `;
+      songItem.addEventListener('click', () => {
+        ap.list.switch(i);
+        updateSongList();
+        // 如果切换歌曲后不在当前页，跳转到对应页
+        const newPage = Math.floor(i / SONGS_PER_PAGE) + 1;
+        if (newPage !== currentPage) {
+          currentPage = newPage;
+          updateSongList();
+          updatePagination();
+        }
+      });
+      songList.appendChild(songItem);
+    }
+    
+    // 更新分页信息
+    updatePagination();
+  }
+
+  // 初始化
+  updateCover();
+  updatePlayState();
+  updateSongList();
+  updateVolume();
+
+  // 事件监听
+  ap.on('listswitch', () => {
+    updateCover();
+    // 检查当前歌曲是否在当前页，如果不在则跳转到对应页
+    const newPage = Math.floor(ap.list.index / SONGS_PER_PAGE) + 1;
+    if (newPage !== currentPage) {
+      currentPage = newPage;
+      updateSongList();
+      updatePagination();
+    } else {
+      updateSongList();
+    }
+  });
+  
+  ap.on('loadeddata', () => {
+    updateCover();
+    durationEl.textContent = formatTime(ap.audio.duration);
+  });
+  
+  ap.on('play', updatePlayState);
+  ap.on('pause', updatePlayState);
+  
+  // 进度更新
+  ap.on('timeupdate', updateProgress);
+  
+  // 音量变化
+  ap.on('volumechange', updateVolume);
+
+  // 悬浮球交互
+  ball.addEventListener('mouseenter', showMenu);
+  ball.addEventListener('mouseleave', hideMenu);
+  
+  controlMenu.addEventListener('mouseenter', () => {
+    isMenuHovered = true;
+    clearTimeout(menuTimeout);
+  });
+  
+  controlMenu.addEventListener('mouseleave', () => {
+    isMenuHovered = false;
+    hideMenu();
+  });
+
+  // 点击悬浮球播放/暂停
+  ball.addEventListener('click', e => {
+    if (!isDragging && (e.target === ball || e.target === icon)) {
+      ap.toggle();
+    }
+  });
+
+  // 控制按钮
+  prevBtn.addEventListener('click', () => {
+    ap.skipBack();
+    updateSongList();
+  });
+
+  playBtn.addEventListener('click', () => {
+    ap.toggle();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    ap.skipForward();
+    updateSongList();
+  });
+
+  // 进度条点击
+  progressBar.addEventListener('click', e => {
+    const percent = e.offsetX / progressBar.offsetWidth;
+    ap.seek(percent * ap.audio.duration);
+  });
+
+  // 音量控制
+  volumeBar.addEventListener('click', e => {
+    const percent = e.offsetX / volumeBar.offsetWidth;
+    ap.volume(percent);
+  });
+
+  // 窗口大小变化时重新定位菜单
+  window.addEventListener('resize', () => {
+    if (controlMenu.classList.contains('show')) {
+      positionMenu();
+    }
+  });
+
+  // 悬浮球拖动功能
+  ball.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    ball.classList.add('dragging');
+    dragStartX = e.clientX;
+    dragStartY = e.clientY;
+    const ballRect = ball.getBoundingClientRect();
+    ballStartLeft = ballRect.left;
+    ballStartTop = ballRect.top;
+    
+    // 防止文本选中
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    
+    const dx = e.clientX - dragStartX;
+    const dy = e.clientY - dragStartY;
+    
+    let newLeft = ballStartLeft + dx;
+    let newTop = ballStartTop + dy;
+    
+    // 限制在窗口范围内
+    newLeft = Math.max(0, Math.min(newLeft, window.innerWidth - ball.offsetWidth));
+    newTop = Math.max(0, Math.min(newTop, window.innerHeight - ball.offsetHeight));
+    
+    ball.style.left = `${newLeft}px`;
+    ball.style.top = `${newTop}px`;
+    
+    // 更新菜单位置
+    if (controlMenu.classList.contains('show')) {
+      positionMenu();
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      ball.classList.remove('dragging');
+      
+      // 小延迟后再允许点击事件
+      setTimeout(() => {
+        isDragging = false;
+      }, 100);
+    }
+  });
+  
+  // 分页控制
+  prevPageBtn.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      updateSongList();
+    }
+  });
+  
+  nextPageBtn.addEventListener('click', () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      updateSongList();
+    }
+  });
+</script>
+
+</body>
+</html>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/live2d/model0.model3.json</url>
+    <content><![CDATA[{"Version":3,"FileReferences":{"Moc":"FileReferences_Moc_0.moc3","Textures":["textures/FileReferences_Textures_0_0.png","textures/FileReferences_Textures_1_0.png"],"Physics":"physics/FileReferences_Physics_0.physic3.json","Pose":"physics/FileReferences_Physics_0.physic3.json","Motions":{"Tap":[{"File":"motions/tap/FileReferences_Motions_Tap_0_File_0.motion3.json"}]}},"Controllers":{"ParamHit":{},"ParamLoop":{},"KeyTrigger":{},"EyeBlink":{"MinInterval":500,"MaxInterval":6000,"Items":[{"Id":"PARAM_EYE__OPEN","Min":0,"Max":1,"BlendMode":2,"Input":0}],"Enabled":true},"LipSync":{"Gain":5},"MouseTracking":{"SmoothTime":0.15,"Enabled":true},"AutoBreath":{"Enabled":true},"ExtraMotion":{"Enabled":true},"Accelerometer":{"Enabled":true},"Microphone":{},"Transform":{},"FaceTracking":{"Enabled":true},"ParamValue":{},"PartOpacity":{},"ArtmeshOpacity":{},"ArtmeshColor":{},"ArtmeshCulling":{"DefaultMode":0},"IntimacySystem":{}},"Options":{"TexFixed":true}}]]></content>
+  </entry>
+  <entry>
+    <title>说说</title>
+    <url>/talk/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/talk/talk.json</url>
+    <content><![CDATA[[{"date":"2025-06-24T10:00:00.000Z","content":"这是第一条说说内容"},{"date":"2025-06-24T11:00:00.000Z","content":"这是第二条说说内容"}]]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/talk/talk.html</url>
+    <content><![CDATA[<p>这里是我第一条说说。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/live2d/waifu-tips.json</url>
+    <content><![CDATA[{"seasons":[{"date":"01/01","text":"<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～"},{"date":"02/14","text":"又是一年<span>情人节</span>，{year}年找到对象了嘛～"},{"date":"03/08","text":"今天是<span>国际妇女节</span>！"},{"date":"03/12","text":"今天是<span>植树节</span>，要保护环境呀！"},{"date":"04/01","text":"悄悄告诉你一个秘密～<span>今天是愚人节，不要被骗了哦～</span>"},{"date":"05/01","text":"今天是<span>五一劳动节</span>，计划好假期去哪里了吗～"},{"date":"06/01","text":"<span>儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"},{"date":"09/03","text":"<span>中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"},{"date":"09/10","text":"<span>教师节</span>，在学校要给老师问声好呀～"},{"date":"10/01","text":"<span>国庆节</span>到了，为祖国母亲庆生！"},{"date":"11/05-11/12","text":"今年的<span>双十一</span>是和谁一起过的呢～"},{"date":"12/20-12/31","text":"这几天是<span>圣诞节</span>，主人肯定又去剁手买买买了～"}],"time":[{"hour":"6-7","text":"早上好！一日之计在于晨，美好的一天就要开始了～"},{"hour":"8-11","text":"上午好！工作顺利嘛，不要久坐，多起来走动走动哦！"},{"hour":"12-13","text":"中午了，工作了一个上午，现在是午餐时间！"},{"hour":"14-17","text":"午后很容易犯困呢，今天的运动目标完成了吗？"},{"hour":"18-19","text":"傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红～"},{"hour":"20-21","text":"晚上好，今天过得怎么样？"},{"hour":"22-23","text":["已经这么晚了呀，早点休息吧，晚安～","深夜时要爱护眼睛呀！"]},{"hour":"0-5","text":"你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？"}],"message":{"default":["好久不见，日子过得好快呢……","记得把小家加入收藏夹哦！"],"tapBody":["理想信念，可不是嘴上说说。","今天也在认真学习吗？","青年要有青年人的担当。","新时代是奋斗出来的。","光会背书可不够哦。","调查研究，比空谈重要。","复兴的路，要一步一步走。"],"hoverHead":["每一次学习，都是与真理的‘不期而遇’。","你找到属于自己的理论信仰了吗？","今天的知识点复习了吗？","真正的自信，来自脚下的道路。"],"hoverBody":["这身斗篷，很有新时代气息吧？","实践和理论，要结合起来。","青春可不能虚度。","要做有理想的青年哦。"],"hoverTail":["尾巴不能乱碰！","再碰尾巴，我可要生气了。"]}}]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/live2d/physics/FileReferences_Physics_0.physic3.json</url>
+    <content><![CDATA[{"Version":3,"Meta":{"PhysicsSettingCount":3,"TotalInputCount":5,"TotalOutputCount":4,"VertexCount":7,"EffectiveForces":{"Gravity":{"X":0,"Y":-1},"Wind":{"X":0,"Y":0}},"PhysicsDictionary":[{"Id":"PhysicsSetting1","Name":"1"},{"Id":"PhysicsSetting2","Name":"2"},{"Id":"PhysicsSetting3","Name":"3"}]},"PhysicsSettings":[{"Id":"PhysicsSetting1","Input":[{"Source":{"Target":"Parameter","Id":"PARAM_BREATH"},"Weight":100,"Type":"X","Reflect":false}],"Output":[{"Destination":{"Target":"Parameter","Id":"PARAM_wb"},"VertexIndex":1,"Scale":100,"Weight":100,"Type":"Angle","Reflect":false}],"Vertices":[{"Position":{"X":0,"Y":0},"Mobility":1,"Delay":1,"Acceleration":1,"Radius":0},{"Position":{"X":0,"Y":25},"Mobility":0.8,"Delay":0.95,"Acceleration":0.5,"Radius":25}],"Normalization":{"Position":{"Minimum":-10,"Default":0,"Maximum":10},"Angle":{"Minimum":-10,"Default":0,"Maximum":10}}},{"Id":"PhysicsSetting2","Input":[{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_X"},"Weight":82,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":"PARAM_ANGLE_Y"},"Weight":18,"Type":"X","Reflect":false},{"Source":{"Target":"Parameter","Id":""},"Weight":100,"Type":"Angle","Reflect":false}],"Output":[{"Destination":{"Target":"Parameter","Id":"PARAM_HAIR_SIDE"},"VertexIndex":1,"Scale":2,"Weight":100,"Type":"Angle","Reflect":false},{"Destination":{"Target":"Parameter","Id":"PARAM_HAIR_BACK"},"VertexIndex":2,"Scale":2,"Weight":100,"Type":"Angle","Reflect":false}],"Vertices":[{"Position":{"X":0,"Y":0},"Mobility":1,"Delay":1,"Acceleration":1,"Radius":0},{"Position":{"X":0,"Y":12},"Mobility":0.9,"Delay":0.8,"Acceleration":1.5,"Radius":12},{"Position":{"X":0,"Y":20},"Mobility":0.7,"Delay":0.8,"Acceleration":2,"Radius":8}],"Normalization":{"Position":{"Minimum":-10,"Default":0,"Maximum":10},"Angle":{"Minimum":-10,"Default":0,"Maximum":10}}},{"Id":"PhysicsSetting3","Input":[{"Source":{"Target":"Parameter","Id":"PARAM_EYE__OPEN"},"Weight":100,"Type":"X","Reflect":false}],"Output":[{"Destination":{"Target":"Parameter","Id":"PARAM_HAIR_FRONT"},"VertexIndex":1,"Scale":1,"Weight":100,"Type":"Angle","Reflect":true}],"Vertices":[{"Position":{"X":0,"Y":0},"Mobility":1,"Delay":1,"Acceleration":1,"Radius":0},{"Position":{"X":0,"Y":5},"Mobility":0.95,"Delay":1,"Acceleration":1,"Radius":5}],"Normalization":{"Position":{"Minimum":-10,"Default":0,"Maximum":10},"Angle":{"Minimum":-10,"Default":0,"Maximum":10}}}]}]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/live2d/motions/tap/FileReferences_Motions_Tap_0_File_0.motion3.json</url>
+    <content><![CDATA[{"Version":3,"Meta":{"Duration":2.467,"Fps":30,"Loop":true,"AreBeziersRestricted":true,"CurveCount":8,"TotalSegmentCount":65,"TotalPointCount":201,"UserDataCount":0,"TotalUserDataSize":0},"Curves":[{"Target":"Parameter","Id":"PARAM_ANGLE_X","Segments":[0,30,1,0.167,30,0.333,-30,0.5,-30,1,0.667,-30,0.833,30,1,30,1,1.167,30,1.333,-30,1.5,-30,1,1.667,-30,1.833,30,2,30,1,2.056,30,2.111,30,2.167,30,1,2.267,30,2.367,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_ANGLE_Y","Segments":[0,-30,1,0.078,-30,0.156,30,0.233,30,1,0.322,30,0.411,-30,0.5,-30,1,0.589,-30,0.678,30,0.767,30,1,0.844,30,0.922,-30,1,-30,1,1.078,-30,1.156,30,1.233,30,1,1.322,30,1.411,-30,1.5,-30,1,1.589,-30,1.678,30,1.767,30,1,1.844,30,1.922,-30,2,-30,1,2.056,-30,2.111,-30,2.167,-30,1,2.267,-30,2.367,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_EYE__OPEN","Segments":[0,0,1,0.167,0,0.333,0,0.5,0,1,0.556,0,0.611,0.233,0.667,0.6,1,0.711,0.894,0.756,1,0.8,1,1,1.078,1,1.356,1,1.633,1,1,1.711,1,1.789,0.944,1.867,0.6,1,1.911,0.404,1.956,0,2,0,1,2.056,0,2.111,0,2.167,0,1,2.267,0,2.367,1,2.467,1]},{"Target":"Parameter","Id":"PARAM_HAIR_FRONT","Segments":[0,0,1,0.067,0,0.133,0.8,0.2,0.8,1,0.244,0.8,0.289,-0.4,0.333,-0.4,1,0.389,-0.4,0.444,-0.364,0.5,0,1,0.567,0.437,0.633,0.946,0.7,0.946,1,0.767,0.946,0.833,-0.806,0.9,-0.806,1,0.989,-0.806,1.078,0.296,1.167,0.296,1,1.256,0.296,1.344,-0.9,1.433,-0.9,1,1.511,-0.9,1.589,0.9,1.667,0.9,1,1.756,0.9,1.844,-0.821,1.933,-0.821,1,1.956,-0.821,1.978,0,2,0,1,2.056,0,2.111,0,2.167,0,1,2.267,0,2.367,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_wb","Segments":[0,-15,1,0.167,-15,0.333,-30,0.5,-30,1,0.833,-30,1.167,30,1.5,30,1,1.667,30,1.833,-15,2,-15,1,2.056,-25,2.111,-30,2.167,-30,1,2.267,-30,2.367,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_BREATH","Segments":[0,0,1,0.333,0,0.667,1,1,1,1,1.333,1,1.667,0,2,0,1,2.056,0,2.111,0,2.167,0,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_HAIR_SIDE","Segments":[0,0.7,1,0.078,0.7,0.156,0.7,0.233,0.7,1,0.322,0.7,0.411,-0.5,0.5,-0.5,1,0.589,-0.5,0.678,-0.451,0.767,0,1,0.844,0.395,0.922,1,1,1,1,1.078,1,1.156,0.395,1.233,0,1,1.322,-0.451,1.411,-0.5,1.5,-0.5,1,1.589,-0.5,1.678,-0.404,1.767,0,1,1.844,0.353,1.922,0.7,2,0.7,1,2.056,0.7,2.111,0.7,2.167,0.7,1,2.267,0.7,2.367,0,2.467,0]},{"Target":"Parameter","Id":"PARAM_HAIR_BACK","Segments":[0,0.5,1,0.078,0.5,0.156,-0.4,0.233,-0.4,1,0.322,-0.4,0.411,1,0.5,1,1,0.589,1,0.678,-0.5,0.767,-0.5,1,0.856,-0.5,0.944,-0.451,1.033,0,1,1.111,0.395,1.189,1,1.267,1,1,1.344,1,1.422,0.619,1.5,0,1,1.589,-0.708,1.678,-1,1.767,-1,1,1.844,-1,1.922,0.5,2,0.5,1,2.056,0.5,2.111,0.5,2.167,0.5,1,2.267,0.5,2.367,0,2.467,0]}]}]]></content>
+  </entry>
+</search>
